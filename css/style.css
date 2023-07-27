@@ -1,0 +1,21 @@
+.panel
+{
+  /* position: relative; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  border-radius: 7px;
+  color: #ffffff;
+  cursor: pointer;
+  flex: .5;
+  /* display: flex; */
+  margin: 5px;
+  transition: all 1s ease-in;
+}
+.panel.active
+{
+  flex-grow: 10;
+}
+
+
